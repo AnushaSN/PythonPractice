@@ -1,7 +1,5 @@
- 
+#pig latin = funny language simulator
 #get sentence from user
-
-
 original = input("Enter the sentence you want to translate: ").strip().lower()
 
 #split sentence into words
