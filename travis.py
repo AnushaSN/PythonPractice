@@ -1,5 +1,8 @@
+#Travis Security system,checks for user in list, if not prest asks if the user wants to be added,
+#if present asks if the user wants to be removed
+#known users list
 known_users = ["Anu" , "Apoo" , "Shashu" , "Shilpa" , "Anna" , "Amma"]
-
+#infinite loop
 while True:
     print("Hello ! My name is Travis")
     name = input("What is your name ?:").strip().capitalize()
