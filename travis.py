@@ -12,6 +12,8 @@ while True:
         remove = input("Would you like to be removed from the system?(Y/N):").strip().upper()
         if remove == "Y":
             known_users.remove(name)
+            print("Sorry to see you go :(") #adding message
+            break #breaking out of loop once user is removed
         elif remove == "N":
             print("No problem! i did not want you to leave anyway!!")
     else:
@@ -19,5 +21,6 @@ while True:
         add_me = input("Would you like to be added in the system?:(Y?N)").strip().upper()
         if add_me == 'Y':
             known_users.append(name)
+            print("Added you to the list!") #adding confimation
         elif add_me == 'N':
             print("No worries, will see you around!")
